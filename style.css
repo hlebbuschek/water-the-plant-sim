@@ -1,0 +1,31 @@
+img {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+}
+.rotate {
+  animation: rotateCan 1s ease;
+}
+
+@keyframes rotateCan {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-40deg); }
+  100% { transform: rotate(0deg); }
+}
+.garden {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plant {
+  width: 500px;
+}
+button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  width: 200px;
+  left: 270px;
+  top: 50px;
+}
