@@ -7,24 +7,25 @@
   <body>
     <main>
       <div class="garden">
-        <div class="plant" id="plant">
-          <img src="img/flower-1.png" alt="🌷">
+        <div class="modal unvisible">
+        <div class="content">
+          <h3>Done! You have grown the most beautiful flower!</h3>
         </div>
-        <button id="water">
+      </div>
+        <div class="plant" id="plant">
+          <img id="flower-img" src="img/flower-1.png" alt="🌷">
+        </div>
+        <button class="can">
           <img src="img/can-1.png" id="can" alt="Gießkanne">
         </button>
       </div>
-      
-      <!-- <div class="plant">
-        
+      <div class="description">
+        <h1>How to play?</h1>
+        <h3>
+          Click on can to water the plant and show how the flower is growing up!
+        </h3>
+        <button class="replay">Replay</button>
       </div>
-      <div class="watering-can">
-        <img src="img/can-1.png" alt="🥛">
-        <button id="water">
-          Water the plant!
-        </button>
-      </div>
-      <input type="color"> -->
     </main>
     <script src="script.js"></script>
   </body>
